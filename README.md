@@ -1,6 +1,6 @@
 # Sistema de delivery - DJANGO
 
-PAplicação de delivery desenvolvida durante a Imersão Python, utilizando o framework Django.
+Aplicação de delivery desenvolvida durante a Imersão Python, utilizando o framework Django.
 
 # Detalhes
 
@@ -10,10 +10,20 @@ Durante a imersão foi ensinado conceitos básicos sobre o funcionamento e arqui
 
 # Execução
 
-Para executar o projeto a partir da linha de comando, vá para a pasta root e execute o comando:
+Para executar o projeto a partir da linha de comando, vá para a pasta root do projeto e execute o comando:
 
 ```bash
 python manage.py runserver
+```
+
+Depois basta acessar o endereço que será exibido no terminal. 
+
+Para acessar a pagina de administrador utilize o caminho (/admin). 
+
+A criação de um super usuario segue o padrão do framework DJANGO.
+
+```bash
+python3 manage.py createsuperuser
 ```
 
 # Observaçao
