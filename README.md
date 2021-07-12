@@ -26,6 +26,6 @@ A criação de um super usuario segue o padrão do framework DJANGO.
 python3 manage.py createsuperuser
 ```
 
-# Observaçao
+# Observação
 
 Para o funcionamento da aplicação é necessario que todas as bibliotecas utilizadas no mesmo estejam instaladas na maquína. A fim de testes, recomendo a utilização de um VENV.
